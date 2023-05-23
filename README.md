@@ -30,7 +30,7 @@ example: tcpgrep pcap1.pcap -p 2-10
 
 o	To dump specific range of ports,
 tcpgrep <pcapfile name> -p:<ip address>:<port no>
-  example: tcpgrep pcap1.pcap -p 192.168.4.5:443
+example: tcpgrep pcap1.pcap -p 192.168.4.5:443
 
 o	To dump specified tcpflags,
 tcpgrep <pcapfile name> -p<flags: A,P,F,U,S,R>
